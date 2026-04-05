@@ -1,3 +1,4 @@
-
-![Akame ga Kill!](https://github.com/user-attachments/assets/b0e62a7d-39c2-465b-af9b-4578d15624dc)
+<div id="header" align="center">
+![Uploading Akame ga Kill!.gif…]()
+</div>
 
