@@ -1,5 +1,3 @@
-<div id="header" align="center">
-![Akame ga Kill!](https://github.com/user-attachments/assets/6c6582ec-cb2c-4f8b-a769-ad6562e6bc4f)
-
-</div>
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b0e62a7d-39c2-465b-af9b-4578d15624dc" alt="Akame ga Kill!">
+</p>
