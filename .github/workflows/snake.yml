@@ -2,8 +2,8 @@ name: Generate snake animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"  # Запуск каждые 12 часов
-  workflow_dispatch:  # Возможность запуска вручную
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
       
       - uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: AlexWify
           outputs: |
             output/github-contribution-grid-snake.svg
             output/github-contribution-grid-snake-dark.svg?palette=github-dark
