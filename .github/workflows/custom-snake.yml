@@ -1,0 +1,25 @@
+name: Custom Neon Snake Animation
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # Каждые 6 часов
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Generate custom neon snake
+        uses: aadityaalok/neon-snake@main
+        with:
+          github_user: AlexWify
+          svg_path: output/snake.svg
+          
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: output
